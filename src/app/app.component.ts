@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angcona';
+  paren="this is from parent to child"
+  cpp=""
 }

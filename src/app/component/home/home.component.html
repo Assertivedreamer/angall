@@ -1,0 +1,127 @@
+<p>home works!</p>
+
+<h1>{{ pb }}</h1>
+
+<!-- <h1 [ngClass]="ob">this is property binding</h1>
+
+<h1 [ngStyle]="ob">this is property binding</h1> -->
+
+<!-- <button (click)="even()">click me</button> -->
+
+<!-- 
+<input type="text" [(ngModel)]="binding">
+
+
+<h1>{{binding}}</h1> -->
+
+<h1 *ngIf="required; then b; else bb"></h1>
+
+<ng-template #b>this is bbbbbb</ng-template>
+<ng-template #bb>this is bbbbbb2222222</ng-template>
+
+
+
+<hr />
+
+
+
+
+
+
+<h1 [ngSwitch]="c">
+  <h1 *ngSwitchCase="1">11111111</h1>
+
+  <h1 *ngSwitchCase="2">22222222</h1>
+</h1>
+
+
+
+
+
+<!-- <h1 *ngFor="let item of ic;index as i">
+
+<h1>{{item}}</h1>-----<h1>{{i}}</h1>
+
+
+
+
+</h1> -->
+
+
+
+<h1 *ngFor="let tt of objec|keyvalue">
+
+<h1>{{tt.key}}-------{{tt.value}}</h1>
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 *ngFor="let ttt of objj">
+<h1 *ngFor="let tt of ttt|keyvalue">
+
+
+    <h1>{{tt.key}}-------{{tt.value}}</h1>
+    
+    </h1>
+<hr>
+
+    <h1>{{objj|json}}</h1>
+
+
+
+
+<h1>{{par}}</h1>
+
+<button (click)="func()">submitcp</button>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
